@@ -52,7 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="PESQUISA.jason" />
+    <None Include="PESQUISA.json" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="PRODUCTS.xml" />
