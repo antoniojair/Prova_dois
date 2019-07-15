@@ -16,9 +16,6 @@ namespace ProvaFinal {
             xDoc = XDocument.Load(xmlFile);
         }
 
-        //public XDocument XDoc { get => XDoc1; set => XDoc1 = value; }
-        //public XDocument XDoc1 { get => xDoc; set => xDoc = value; }
-
         public ProductList products(string name) {
             var query = from c in xDoc.Element("Products").Elements("Product")
                         where c.Element("Product_name").Value.ToLower().Contains(name.ToLower())
